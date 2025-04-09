@@ -2,7 +2,8 @@
 
 read -p "Enter a: " a
 read -p "Enter b: " b
-
+#janhavi's code
+#enter the coice
 read -p "Enter choice(add/sub/mult/div): " choice
 
 if [ $choice == "add" ]; then
