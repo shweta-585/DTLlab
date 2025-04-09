@@ -3,7 +3,7 @@
 read -p "Enter a: " a
 read -p "Enter b: " b
 
-read -p "Enter choice: " choice
+read -p "Enter choice(add/sub/mult/div): " choice
 
 if [ $choice == "add" ]; then
 	echo $((a+b))
